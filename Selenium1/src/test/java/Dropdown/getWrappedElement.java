@@ -13,7 +13,7 @@ public class getWrappedElement {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.get("C:\\Users\\mayur\\Desktop\\Dropdown.html");
+		driver.get("C:/Users/mayur/Desktop/SeleniumFile/Dropdowns.html");
 		WebElement city = driver.findElement(By.id("city"));
 		Select select = new Select(city);
 		System.out.println(select.getWrappedElement().getText());

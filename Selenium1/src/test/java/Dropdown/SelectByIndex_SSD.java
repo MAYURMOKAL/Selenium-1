@@ -13,7 +13,7 @@ public class SelectByIndex_SSD {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.get("C:\\Users\\mayur\\Desktop\\Dropdown.html");
+		driver.get("C:/Users/mayur/Desktop/SeleniumFile/Dropdowns.html");
 		
 		WebElement degree = driver.findElement(By.id("degree"));
 		Select select = new Select(degree);

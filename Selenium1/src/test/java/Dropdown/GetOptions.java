@@ -17,7 +17,7 @@ public class GetOptions {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		boolean b = false;
-		driver.get("C:\\Users\\mayur\\Desktop\\Dropdowns.html");
+		driver.get("C:/Users/mayur/Desktop/SeleniumFile/Dropdowns.html");
 		WebElement city = driver.findElement(By.id("city"));
 		Select select = new Select(city);
 		List<WebElement> allOptions = select.getOptions();

@@ -13,7 +13,7 @@ public class SelectByValue_SSD {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.get("C:\\Users\\mayur\\Desktop\\Dropdown.html");
+		driver.get("C:/Users/mayur/Desktop/SeleniumFile/Dropdowns.html");
 		WebElement country = driver.findElement(By.id("country"));
 		Select select = new Select(country);
 		Thread.sleep(3000);
